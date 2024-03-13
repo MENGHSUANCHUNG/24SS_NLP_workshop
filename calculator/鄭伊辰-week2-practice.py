@@ -10,6 +10,9 @@ elif(oprator == 45):
 elif(oprator == 42):
     print(n1 * n2)
 elif(oprator == 47):
-    print(n1 / n2)
+    if(n2 == 0):
+        print("除數不能為 0")
+    else:
+        print(n1 / n2)
 else:
     print("可以好好打算式咪")
