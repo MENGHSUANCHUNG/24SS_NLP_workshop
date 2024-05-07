@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
+from pprint import pprint
 # Variable/ Assign
 #a = 4
 #b = 2
@@ -30,16 +31,17 @@
 
 # List Tuple
 #intLIST = [1,2,3,4,5] 
-#intTUPLE = (1,2,3,4,5)
-#print(intLIST[::2])
-#intLIST[0] = 0
-#print(intLIST)
-#intTUPLE[0] = 0
-# len()
+##intTUPLE = (1,2,3,4,5)
+###print(intLIST[::2])
+###intLIST[0] = 0
+###print(intLIST)
+##intTUPLE[0] = 0
+#print(len(intLIST))
 
 # Dictionary
-# vocabDICT = {"apple":12, "banana":13}
-# vocabDICT["apple"] = 10
+vocabDICT = {"apple":12, "banana":13}
+#vocabDICT["apple"] = 10
+pprint(vocabDICT)
 
 # function and program
 # f(x) = 2x+1
@@ -59,7 +61,7 @@
     #print(f"f({x}) = {y}")
     
 #if __name__ == "__main__":
-    #x = 2
+    #x = 3
     #f(x)
     
 
