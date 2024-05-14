@@ -1,0 +1,981 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "硬幣": [
+            "一元硬幣",
+            "五元硬幣",
+            "十元硬幣",
+            "五十元硬幣"
+        ],
+        "鈔票": [
+            "一百元",
+            "兩百元",
+            "五百元",
+            "一千元",
+            "兩千元"
+        ],
+        "換零錢": [
+            "一塊",
+            "五塊",
+            "十塊",
+            "五十塊"
+        ]
+    },
+    "utterance": {
+        "要換幾張百鈔": {
+            "id": "c618aabc-d167-4f11-ac04-3a6ffe648292",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "CLAUSE_HowQ",
+                    "text": "幾",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "百",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "鈔",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "無法提供換鈔票服務": {
+            "id": "c99edc7f-f377-41fb-aa65-2e01bd79d090",
+            "argument": [
+                {
+                    "pos": "FUNC_negation",
+                    "text": "無法",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "供應",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "供給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "供貨",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "供銷",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "供電",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "提出",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "提案",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "協助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "奉獻",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "帶給",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "武裝",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "獻出",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "發放",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "祭拜",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "祭祀",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "補給",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "貢獻",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "資助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "進獻",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "提供了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給予",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出借",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "獲取",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "收集",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "收取",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發送",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "帶來",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "提供",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "鈔票",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "事奉",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "侍奉",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "照護",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "運營",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "營運",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "服務",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "五百元換五張百元鈔票": {
+            "id": "0d927bd1-3b73-44be-b939-bf7cbc20db5f",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "五百元",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "五張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "KNOWLEDGE_currency",
+                    "text": "百元",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "鈔票",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "一千元換兩張五百元鈔票": {
+            "id": "3773ecf1-aabe-4324-8561-ed289644d6dd",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "一千元",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "兩張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "五百元",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "鈔票",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "十個一塊錢和四個十塊錢": {
+            "id": "cb260058-cb58-4a56-9201-e45de94f7de4",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "十個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "一塊",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "錢",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "和",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "四個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "十塊",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "錢",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "四個五塊錢和三個十塊錢": {
+            "id": "eb9dc213-f260-4d2e-b7ec-5735a81d6b56",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "四個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "五塊",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "錢",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "和",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "三個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "十塊",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "錢",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "一百元台幣換成兩個五十元硬幣": {
+            "id": "156a4fa2-cebe-48cb-b3dd-e7d81dc30a06",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "一百元",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "台幣",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "代換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "換置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "撤換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "更換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "替換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "置換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "調換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "變換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "代替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "更替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "頂替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "去掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "收起來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換成",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "兩個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "五十元硬幣",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "一張百元鈔換一個五十塊和五個十塊": {
+            "id": "343fc972-cb90-4155-8298-fc0de7af532d",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "KNOWLEDGE_currency",
+                    "text": "百元",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "鈔",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "五十塊",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "和",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "五個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "十塊",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}
