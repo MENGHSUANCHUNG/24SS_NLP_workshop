@@ -1,0 +1,27 @@
+﻿斷詞
+1.請/幫/我/解決/卡紙VerbP
+2.請/幫/我/解決/卡ACTION_verb/紙問題ENTITY_nouny
+3.沒有/白紙ENTITY_nounHead/了
+4.沒有/影印ACTION_verb/紙ENTITY_nouny/了
+5.沒有/特殊MODIFIER/用ACTION_verb/紙ENTITY_nouny/了
+6.沒有FUNC_negation/紙ENTITY_nouny/了
+7.沒紙MODIFIER/了
+
+
+Utterance:
+1. 請幫我解決卡紙
+2. 請幫我解決卡紙問題
+3. 沒有白紙了
+4. 沒有影印紙了
+5. 沒有特殊用紙了
+6.沒有紙了
+7.沒紙了
+
+
+
+
+Problems:
+1. 「請幫我解決卡紙問題」斷詞有誤，「卡」被斷成ACTION_verb
+2. 「沒有影印紙了」斷詞有誤，「影印」被斷成ACTION_verb
+3. 「沒有特殊用紙了」斷詞有誤，「用」被斷成ACTION_verb
+4. 「沒紙了」斷詞有誤，「沒紙」被斷成MODIFIER
