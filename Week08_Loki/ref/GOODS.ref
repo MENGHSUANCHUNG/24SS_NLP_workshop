@@ -1,0 +1,1555 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {},
+    "utterance": {
+        "後三碼": {
+            "id": "260283f8-7cf1-4248-ab3d-e95d84f72a2e",
+            "argument": [
+                {
+                    "pos": "MODIFIER",
+                    "text": "後",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_measurement",
+                    "text": "三碼",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "末三碼": {
+            "id": "38307b5b-2bb0-4e19-93e5-d5c7075496e6",
+            "argument": [
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "末",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_measurement",
+                    "text": "三碼",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "賣貨便": {
+            "id": "557b1513-23a7-4e04-9b28-017ff70c6e51",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "賣貨",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "便",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我要取貨": {
+            "id": "a65647d8-740a-4e6e-9b73-becfd027b277",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [],
+                    "text": "取貨",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我要領貨": {
+            "id": "708fa4ba-7be3-4011-9055-45c570e5be5b",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "領貨",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我要取包裹": {
+            "id": "bccf58fe-864e-441d-8788-7cbedb6cd12f",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "取來",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "取得",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "取捨",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "選取",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "任選",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "挑選",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "遴選",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "選用",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "取河",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "來也",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "取自",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "取材",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "脫胎",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "取名",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "取了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "翻攝",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有取",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "取",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "包裹",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我要領包裹": {
+            "id": "61b549d9-06c1-4cd1-9d27-c7a8b5995d34",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "佐藩",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拐話",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "領",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "包裹",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "名字號碼都對": {
+            "id": "5df53629-77c4-4823-afc8-848cd5e0f3bd",
+            "argument": [
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "名字",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "KNOWLEDGE_lawTW",
+                    "text": "號",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "碼",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "都",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "對",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我的後三碼是": {
+            "id": "59da18b4-bc76-46de-9a5f-795d667188c7",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "後",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_measurement",
+                    "text": "三碼",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "AUX",
+                    "text": "是",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我要領取網購": {
+            "id": "67992297-3bdd-4ac4-9bd7-8b6f66f64d05",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "收取",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "領到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "領受",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "接納",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "收到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "繳交",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "領回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "獲發",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "兌領",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "申領",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發放",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "索取",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換領",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "領取",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "購物",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "團購",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "代購",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "促銷",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "預購",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "消費",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "量販",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "結帳",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "採買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "刷卡",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "網購",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "請問到貨了嗎": {
+            "id": "2e8fc6e1-871b-475a-bc9a-0ba97cf5d0f1",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "試問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "倒底",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "問說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "敢說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "反問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "請問",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "VerbP",
+                    "lexy": [],
+                    "text": "到貨了",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "嗎",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我全部都要領取": {
+            "id": "e672c2d5-e584-41a5-a21c-9509dded634a",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "全部",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "都",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "收取",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "領到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "領受",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "接納",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "收到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "繳交",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "領回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "獲發",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "兌領",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "申領",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發放",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "索取",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換領",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "領取",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我電話末三碼是": {
+            "id": "b12f4820-e1dd-45ef-bf61-a0ef8178e981",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "電話",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nounHead",
+                    "text": "末",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_measurement",
+                    "text": "三碼",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "AUX",
+                    "text": "是",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我找不到我的包裹": {
+            "id": "eb765b19-6fc3-4025-aa15-113c9832a39e",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想不出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "看不到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "找不出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿不出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "找不著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "找到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "找到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "提不出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "看不懂",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抓不到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "找不",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "找不到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "包裹",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "可以幫我找後三碼包裹嗎": {
+            "id": "ca4b0262-4760-47ad-a141-577f509765f8",
+            "argument": [
+                {
+                    "pos": "MODAL",
+                    "text": "可以",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "幫助",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "協助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "扶助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "援助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "輔助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "幫",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "尋找",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "找出",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "找到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "找尋",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "找著",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "查找",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "尋出",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "尋摸",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "尋求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "尋訪",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "搜尋",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "搜求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "蒐尋",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "找了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拜託",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得找",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "找不到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "找上",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "尋覓",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想找",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "撿",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "找",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "RANGE_period",
+                    "text": "後",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_measurement",
+                    "text": "三碼",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "包裹",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "嗎",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "蝦皮、露天、PChome、coupon、淘寶": {
+            "id": "c55786e7-b90b-4653-b6d9-4bf880bd1aed",
+            "argument": [
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "蝦皮",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "、",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "露天",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "、",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "PChome",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "、",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "coupon",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "、",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "淘寶",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}
