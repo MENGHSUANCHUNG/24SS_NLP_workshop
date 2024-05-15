@@ -192,12 +192,85 @@
                 }
             ]
         },
-        "無法提供換鈔票服務": {
-            "id": "c99edc7f-f377-41fb-aa65-2e01bd79d090",
+        "請問可以找零錢嗎": {
+            "id": "4124eaf3-ba78-446f-ac7f-bb1db619094a",
             "argument": [
                 {
-                    "pos": "FUNC_negation",
-                    "text": "無法",
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "試問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "倒底",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "問說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "敢說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "反問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "請問",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "可以",
                     "checked": false,
                     "checkbox": false
                 },
@@ -205,239 +278,124 @@
                     "pos": "ACTION_verb",
                     "lexy": [
                         {
-                            "text": "供應",
+                            "text": "尋找",
                             "level": "tier_1",
                             "checked": false
                         },
                         {
-                            "text": "供給",
+                            "text": "找出",
                             "level": "tier_1",
                             "checked": false
                         },
                         {
-                            "text": "供貨",
+                            "text": "找到",
                             "level": "tier_1",
                             "checked": false
                         },
                         {
-                            "text": "供銷",
+                            "text": "找尋",
                             "level": "tier_1",
                             "checked": false
                         },
                         {
-                            "text": "供電",
+                            "text": "找著",
                             "level": "tier_1",
                             "checked": false
                         },
                         {
-                            "text": "提出",
+                            "text": "查找",
                             "level": "tier_1",
                             "checked": false
                         },
                         {
-                            "text": "提案",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "協助",
+                            "text": "尋出",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "奉獻",
+                            "text": "尋摸",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "帶給",
+                            "text": "尋求",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "武裝",
+                            "text": "尋訪",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "獻出",
+                            "text": "搜尋",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "發放",
+                            "text": "搜求",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "祭拜",
+                            "text": "蒐尋",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "祭祀",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "補給",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "貢獻",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "資助",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "進獻",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "提供了",
+                            "text": "找不到",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "給予",
+                            "text": "找了",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "出借",
+                            "text": "找上",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "獲取",
+                            "text": "想找",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "收集",
+                            "text": "得找",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "收取",
+                            "text": "撿",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "發送",
+                            "text": "尋覓",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "帶來",
+                            "text": "拜託",
                             "level": "word2vec",
                             "checked": false
                         }
                     ],
-                    "text": "提供",
+                    "text": "找",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "更換",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "換了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "買",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "換到",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "轉換",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "換回",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "換成",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "有換",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "拆開",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "換購",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "換",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "UserDefined",
-                    "text": "鈔票",
+                    "pos": "ENTITY_noun",
+                    "text": "零錢",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "事奉",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "侍奉",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "照護",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "運營",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "營運",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "服務",
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "嗎",
                     "checked": false,
                     "checkbox": false
                 }
@@ -527,6 +485,166 @@
                     "text": "鈔票",
                     "checked": true,
                     "checkbox": true
+                }
+            ]
+        },
+        "請問這裡可以換鈔票嗎": {
+            "id": "420c228f-8a28-43e9-a0a9-3d5290f6cbb0",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "試問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "倒底",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "問說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "敢說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "反問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "請問",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "這裡",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "可以",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "鈔票",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "嗎",
+                    "checked": false,
+                    "checkbox": false
                 }
             ]
         },
@@ -708,6 +826,184 @@
                     "text": "錢",
                     "checked": true,
                     "checkbox": true
+                }
+            ]
+        },
+        "請問可以換一張新的百鈔嗎": {
+            "id": "daa9ecd4-4418-4aa8-806c-171ea0ece3ab",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "試問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "倒底",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "問說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "敢說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "反問",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常說",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "受得",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陷害",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "請問",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "可以",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "新",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "百",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "鈔",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "嗎",
+                    "checked": false,
+                    "checkbox": false
                 }
             ]
         },
