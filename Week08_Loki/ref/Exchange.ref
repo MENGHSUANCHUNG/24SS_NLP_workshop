@@ -9,105 +9,105 @@
         "硬幣": [
             "一元硬幣",
             "五元硬幣",
-            "十元硬幣",
-            "五十元硬幣"
+            "五十元硬幣",
+            "十元硬幣"
         ],
         "鈔票": [
-            "一百元",
-            "兩百元",
-            "五百元",
             "一千元",
-            "兩千元"
+            "一百元",
+            "五百元",
+            "兩千元",
+            "兩百元"
         ],
-        "換零錢": [
+        "零錢": [
             "一塊",
+            "五十塊",
             "五塊",
-            "十塊",
-            "五十塊"
+            "十塊"
         ]
     },
     "utterance": {
-        "要換幾張百鈔": {
-            "id": "c618aabc-d167-4f11-ac04-3a6ffe648292",
+        "換錢": {
+            "id": "0ae174ee-76cb-4989-aa82-246fc5da06d1",
             "argument": [
                 {
                     "pos": "ACTION_verb",
                     "lexy": [
                         {
-                            "text": "想要",
+                            "text": "兌換",
                             "level": "tier_1",
                             "checked": false
                         },
                         {
-                            "text": "需要",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "想拿",
+                            "text": "折兌",
                             "level": "tier_2",
                             "checked": false
                         },
                         {
-                            "text": "想買",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "渴望",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "渴求",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "餓了",
+                            "text": "典當",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "得照",
+                            "text": "變賣",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "需",
+                            "text": "搶來",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "更要",
+                            "text": "買來",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "想",
+                            "text": "賣錢",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "要去",
+                            "text": "拿去",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "真要",
+                            "text": "買酒",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "餓",
+                            "text": "湊錢",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買回來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "挑著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "挑",
                             "level": "word2vec",
                             "checked": false
                         }
                     ],
-                    "text": "要",
+                    "text": "換錢",
                     "checked": false,
                     "checkbox": false
-                },
+                }
+            ]
+        },
+        "換硬幣": {
+            "id": "42ee9c2d-69ad-4935-935c-442332738b3b",
+            "argument": [
                 {
                     "pos": "ACTION_verb",
                     "lexy": [
@@ -167,33 +167,953 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "CLAUSE_HowQ",
-                    "text": "幾",
+                    "pos": "UserDefined",
+                    "text": "硬幣",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "換鈔票": {
+            "id": "75a75fc4-26dd-4c7d-8e3f-00b0bed1cf99",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
                     "checked": false,
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_classifier",
-                    "text": "張",
-                    "checked": true,
+                    "pos": "UserDefined",
+                    "text": "鈔票",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "換零錢": {
+            "id": "33662803-a1d2-4c12-a7a5-219ee5d989f3",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "更換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有換",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拆開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換購",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換",
+                    "checked": false,
                     "checkbox": false
                 },
                 {
+                    "pos": "UserDefined",
+                    "text": "零錢",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "一千找開": {
+            "id": "629e7306-2025-450d-b937-36f75a03ad31",
+            "argument": [
+                {
                     "pos": "ENTITY_num",
-                    "text": "百",
+                    "text": "一千",
                     "checked": true,
                     "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_oov",
-                    "text": "鈔",
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "乘聯",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "扁宋",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "逛廟",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "找開",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "全部一百": {
+            "id": "596b6201-9e41-4631-a700-ec2754b8478b",
+            "argument": [
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "全部",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "一百",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "全部換成": {
+            "id": "e49ee453-17f4-4ad5-a611-d3b17cbb10a5",
+            "argument": [
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "全部",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "代換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "換置",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "撤換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "更換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "替換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "置換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "調換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "變換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "代替",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "更替",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "頂替",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "改為了",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "放進",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "改成了",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "換成了",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "去掉",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "收起來",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "轉成",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "拿掉",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "改成",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "轉換成",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "改為",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "換成",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "五百塊找開": {
+            "id": "39c921c0-f3de-4418-b48b-18d62942ef9d",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "五百塊",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "找開",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "換成一百的": {
+            "id": "89fb3319-916a-41b0-a46b-8d3db8927e6f",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "代換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "換置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "撤換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "更換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "替換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "置換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "調換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "變換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "代替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "更替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "頂替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "去掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "收起來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換成",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "一百",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "幫我換成一百的": {
+            "id": "e7052cf4-64dd-430e-944b-d318c2074df0",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "幫助",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "協助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "扶助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "援助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "輔助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "幫",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "代換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "換置",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "撤換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "更換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "替換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "置換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "調換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "變換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "代替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "更替",
+                            "level": "tier_2",
+                            "checked": true
+                        },
+                        {
+                            "text": "頂替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "去掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉成",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "轉換成",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "改成了",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "改成",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "拿掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成了",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "收起來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "換成",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "一百",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "幫我換成全部十塊": {
+            "id": "08b03c20-1b6a-40bb-b68e-5e386ddc8b3a",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "幫助",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "協助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "扶助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "援助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "輔助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "幫",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "代換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "換置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "撤換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "更換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "替換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "置換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "調換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "變換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "代替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "更替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "頂替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "去掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "收起來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換成",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "全部",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "十塊",
                     "checked": true,
                     "checkbox": true
                 }
             ]
         },
         "請問可以找零錢嗎": {
-            "id": "4124eaf3-ba78-446f-ac7f-bb1db619094a",
+            "id": "453844e9-7be5-4548-a0de-7d558eac32ca",
             "argument": [
                 {
                     "pos": "ACTION_verb",
@@ -388,9 +1308,9 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ENTITY_noun",
+                    "pos": "UserDefined",
                     "text": "零錢",
-                    "checked": true,
+                    "checked": false,
                     "checkbox": true
                 },
                 {
@@ -829,6 +1749,242 @@
                 }
             ]
         },
+        "小姐我要換成全部一百的": {
+            "id": "eb4a5fd6-bb26-4914-bd1e-60338b477492",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "小姐",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "代換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "換置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "撤換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "更換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "替換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "置換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "調換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "變換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "代替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "更替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "頂替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "去掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "收起來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換成",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "全部",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "一百",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
         "請問可以換一張新的百鈔嗎": {
             "id": "daa9ecd4-4418-4aa8-806c-171ea0ece3ab",
             "argument": [
@@ -1156,6 +2312,253 @@
                     "text": "五十元硬幣",
                     "checked": true,
                     "checkbox": true
+                }
+            ]
+        },
+        "不好意思可以全部幫我換成硬幣嗎": {
+            "id": "76ed59a7-ea77-46ac-a912-a46439d6162f",
+            "argument": [
+                {
+                    "pos": "IDIOM",
+                    "text": "不好意思",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "可以",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "全部",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "幫助",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "協助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "扶助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "援助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "輔助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "陪",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "幫",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "代換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "換置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "撤換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "更換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "替換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "置換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "調換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "變換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "代替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "更替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "頂替",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換成了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "去掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "收起來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿掉",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉換成",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改為",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "換成",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "硬幣",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "嗎",
+                    "checked": false,
+                    "checkbox": false
                 }
             ]
         },
