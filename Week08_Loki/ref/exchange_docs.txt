@@ -6,6 +6,9 @@ Utterence:
 1.五百元、百元
 2.百鈔
 3.五十元硬幣
+4.五百塊
+5.找開
+6.換錢
 
 
 Problems:
@@ -13,3 +16,6 @@ Problems:
 1.五百元被歸類成entity,而百元被判斷成currency
 2.百鈔被斷成百(num)、鈔(entity)
 3.五十元硬幣整個被判斷成entity
+4.五百塊被判斷成POS_Classifier
+5.找開 被判斷成POS_Entity
+6.換錢的 「錢」沒有被切開
