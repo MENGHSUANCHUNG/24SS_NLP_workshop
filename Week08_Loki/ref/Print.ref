@@ -5,17 +5,24 @@
         "atk": "v270",
         "intent": "1.0"
     },
-    "user_defined": {},
+    "user_defined": {
+        "_asNoun": [
+            "影印紙",
+            "特殊用紙"
+        ],
+        "_asVerb": [
+            "卡紙"
+        ]
+    },
     "utterance": {
         "卡紙了": {
-            "id": "1c43b705-87ee-4984-9588-b904ee89f828",
+            "id": "e1aed014-d59d-4614-a541-c8e253a7afcf",
             "argument": [
                 {
-                    "pos": "VerbP",
-                    "lexy": [],
+                    "pos": "UserDefined",
                     "text": "卡紙",
-                    "checked": false,
-                    "checkbox": false
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
                     "pos": "ASPECT",
@@ -97,6 +104,26 @@
                             "checked": false
                         },
                         {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -107,12 +134,7 @@
                             "checked": false
                         },
                         {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫著",
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -123,21 +145,6 @@
                         },
                         {
                             "text": "幫忙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -181,22 +188,7 @@
                             "checked": false
                         },
                         {
-                            "text": "繪圖",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "排版",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "打印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "裁剪",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -206,7 +198,22 @@
                             "checked": false
                         },
                         {
+                            "text": "粘貼",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "讀取",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "掃描",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "裁剪",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -216,17 +223,17 @@
                             "checked": false
                         },
                         {
-                            "text": "粘貼",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "掃瞄",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "掃描",
+                            "text": "繪圖",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "打印",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -386,7 +393,7 @@
                             "checked": false
                         },
                         {
-                            "text": "餓了",
+                            "text": "真要",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -396,17 +403,7 @@
                             "checked": false
                         },
                         {
-                            "text": "需",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "更要",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -416,7 +413,17 @@
                             "checked": false
                         },
                         {
-                            "text": "真要",
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -533,7 +540,7 @@
                             "checked": false
                         },
                         {
-                            "text": "真要",
+                            "text": "餓了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -543,12 +550,12 @@
                             "checked": false
                         },
                         {
-                            "text": "更要",
+                            "text": "需",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "要去",
+                            "text": "更要",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -558,12 +565,12 @@
                             "checked": false
                         },
                         {
-                            "text": "需",
+                            "text": "要去",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "餓了",
+                            "text": "真要",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -586,16 +593,6 @@
                             "checked": false
                         },
                         {
-                            "text": "推送",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "讀取",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "建檔",
                             "level": "word2vec",
                             "checked": false
@@ -606,22 +603,7 @@
                             "checked": false
                         },
                         {
-                            "text": "成像",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "掃瞄",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "縮放",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "解碼",
+                            "text": "推送",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -631,7 +613,32 @@
                             "checked": false
                         },
                         {
+                            "text": "讀取",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "縮放",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "掃瞄",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "解碼",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "傳輸",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "成像",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -728,12 +735,7 @@
                             "checked": false
                         },
                         {
-                            "text": "拆掉了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "敲到",
+                            "text": "撞了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -743,7 +745,12 @@
                             "checked": false
                         },
                         {
-                            "text": "打回了",
+                            "text": "拆掉了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "敲到",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -758,7 +765,7 @@
                             "checked": false
                         },
                         {
-                            "text": "撞死了",
+                            "text": "擋住了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -768,12 +775,12 @@
                             "checked": false
                         },
                         {
-                            "text": "擋住了",
+                            "text": "打回了",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "撞了",
+                            "text": "撞死了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1029,26 +1036,6 @@
                             "checked": false
                         },
                         {
-                            "text": "幫著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -1059,7 +1046,12 @@
                             "checked": false
                         },
                         {
-                            "text": "想替",
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1070,6 +1062,21 @@
                         },
                         {
                             "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1198,7 +1205,7 @@
                             "checked": false
                         },
                         {
-                            "text": "餓了",
+                            "text": "真要",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1208,17 +1215,7 @@
                             "checked": false
                         },
                         {
-                            "text": "需",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "更要",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1228,7 +1225,17 @@
                             "checked": false
                         },
                         {
-                            "text": "真要",
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1440,6 +1447,26 @@
                             "checked": false
                         },
                         {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -1450,12 +1477,7 @@
                             "checked": false
                         },
                         {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫著",
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1466,21 +1488,6 @@
                         },
                         {
                             "text": "幫忙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1567,7 +1574,7 @@
             ]
         },
         "影印機卡紙了": {
-            "id": "5a362f45-4b52-4e97-ab3f-0b505cbef159",
+            "id": "57399298-5a31-438e-a148-7acaeef7674d",
             "argument": [
                 {
                     "pos": "ENTITY_nouny",
@@ -1576,11 +1583,10 @@
                     "checkbox": true
                 },
                 {
-                    "pos": "VerbP",
-                    "lexy": [],
+                    "pos": "UserDefined",
                     "text": "卡紙",
-                    "checked": false,
-                    "checkbox": false
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
                     "pos": "ASPECT",
@@ -1759,22 +1765,12 @@
                             "checked": false
                         },
                         {
-                            "text": "呈現",
+                            "text": "預測",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "讀取",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "判讀",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "顯示出",
+                            "text": "顯示了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1789,17 +1785,27 @@
                             "checked": false
                         },
                         {
+                            "text": "讀取",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "顯示出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "呈現",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "顯現",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "預測",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "顯示了",
+                            "text": "判讀",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1925,7 +1931,7 @@
                             "checked": false
                         },
                         {
-                            "text": "依據",
+                            "text": "遵循",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1935,7 +1941,7 @@
                             "checked": false
                         },
                         {
-                            "text": "依照",
+                            "text": "按照",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -1945,32 +1951,32 @@
                             "checked": false
                         },
                         {
-                            "text": "按著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "按照",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "遵從",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "遵循",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "遵照",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
+                            "text": "依照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "依此",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "按著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "依據",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "遵從",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -2052,12 +2058,27 @@
                             "checked": false
                         },
                         {
-                            "text": "中用",
+                            "text": "有用",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "指用",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
                             "text": "常用",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "用來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "中用",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2068,21 +2089,6 @@
                         },
                         {
                             "text": "原用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "有用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "用來",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指用",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -2164,27 +2170,12 @@
                             "checked": false
                         },
                         {
-                            "text": "有用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指用",
+                            "text": "中用",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
                             "text": "常用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "用來",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "中用",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2195,6 +2186,21 @@
                         },
                         {
                             "text": "原用",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有用",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "用來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "指用",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -2212,7 +2218,7 @@
             ]
         },
         "沒有影印紙了": {
-            "id": "bb8f0d22-5693-45c1-adc8-ffab906641e3",
+            "id": "9a7b901c-0bff-42ca-9c30-bc080eb89740",
             "argument": [
                 {
                     "pos": "FUNC_negation",
@@ -2221,67 +2227,9 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "排印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "合訂",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "裝訂",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "重印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "翻印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "刊印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "謄",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "印製",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "印行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "平裝",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "影印",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "紙",
-                    "checked": false,
+                    "pos": "UserDefined",
+                    "text": "影印紙",
+                    "checked": true,
                     "checkbox": true
                 },
                 {
@@ -2382,26 +2330,6 @@
                             "checked": false
                         },
                         {
-                            "text": "幫著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -2412,7 +2340,12 @@
                             "checked": false
                         },
                         {
-                            "text": "想替",
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2423,6 +2356,21 @@
                         },
                         {
                             "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2546,6 +2494,26 @@
                             "checked": false
                         },
                         {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -2556,12 +2524,7 @@
                             "checked": false
                         },
                         {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫著",
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2572,21 +2535,6 @@
                         },
                         {
                             "text": "幫忙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2716,7 +2664,7 @@
                             "checked": false
                         },
                         {
-                            "text": "水解",
+                            "text": "催化",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2731,12 +2679,7 @@
                             "checked": false
                         },
                         {
-                            "text": "催化",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "親電",
+                            "text": "水解",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -2747,6 +2690,11 @@
                         },
                         {
                             "text": "縮合",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "親電",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -2853,26 +2801,6 @@
                             "checked": false
                         },
                         {
-                            "text": "配置",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "搖桿",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "換擋",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "加載",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "尋址",
                             "level": "word2vec",
                             "checked": false
@@ -2888,7 +2816,27 @@
                             "checked": false
                         },
                         {
+                            "text": "搖桿",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "加載",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "配置",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "裝彈",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "換擋",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -2906,7 +2854,7 @@
             ]
         },
         "沒有特殊用紙了": {
-            "id": "f26c0d55-5281-4f74-a393-ded739e767d7",
+            "id": "5956c084-5898-4b72-aa68-2da5397ad573",
             "argument": [
                 {
                     "pos": "FUNC_negation",
@@ -2915,98 +2863,9 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "MODIFIER",
-                    "text": "特殊",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "使用",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "利用",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "採用",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "施用",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "活用",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "運用",
-                            "level": "tier_1",
-                            "checked": false
-                        },
-                        {
-                            "text": "假借",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "憑靠",
-                            "level": "tier_2",
-                            "checked": false
-                        },
-                        {
-                            "text": "中用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "用此",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "原用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "有用",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "用來",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "指用",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "用",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "紙",
-                    "checked": false,
+                    "pos": "UserDefined",
+                    "text": "特殊用紙",
+                    "checked": true,
                     "checkbox": true
                 },
                 {
@@ -3107,6 +2966,26 @@
                             "checked": false
                         },
                         {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -3117,12 +2996,7 @@
                             "checked": false
                         },
                         {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫著",
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3133,21 +3007,6 @@
                         },
                         {
                             "text": "幫忙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3221,17 +3080,7 @@
                             "checked": false
                         },
                         {
-                            "text": "填補",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "稀釋",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "補足",
+                            "text": "適量",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3241,12 +3090,22 @@
                             "checked": false
                         },
                         {
-                            "text": "調配",
+                            "text": "填補",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "提取",
+                            "text": "補足",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "稀釋",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "調配",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3256,7 +3115,7 @@
                             "checked": false
                         },
                         {
-                            "text": "適量",
+                            "text": "提取",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -3274,7 +3133,7 @@
             ]
         },
         "請幫我解決卡紙": {
-            "id": "5a0ea048-6ba6-4288-8357-75271005e352",
+            "id": "60f2be54-2ec7-4a80-85e5-48f8d88d8e9c",
             "argument": [
                 {
                     "pos": "ACTION_verb",
@@ -3363,26 +3222,6 @@
                             "checked": false
                         },
                         {
-                            "text": "幫著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -3393,7 +3232,12 @@
                             "checked": false
                         },
                         {
-                            "text": "想替",
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3404,6 +3248,21 @@
                         },
                         {
                             "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3527,7 +3386,12 @@
                             "checked": false
                         },
                         {
-                            "text": "解決了",
+                            "text": "消弭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "緩解",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3542,17 +3406,12 @@
                             "checked": false
                         },
                         {
-                            "text": "消弭",
+                            "text": "消除",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "解套",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "緩解",
+                            "text": "解決了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3562,7 +3421,7 @@
                             "checked": false
                         },
                         {
-                            "text": "消除",
+                            "text": "解套",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -3577,11 +3436,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "VerbP",
-                    "lexy": [],
+                    "pos": "UserDefined",
                     "text": "卡紙",
-                    "checked": false,
-                    "checkbox": false
+                    "checked": true,
+                    "checkbox": true
                 }
             ]
         },
@@ -4114,7 +3972,7 @@
             ]
         },
         "請幫我補充影印紙": {
-            "id": "5da6067b-2969-4590-8495-a80b2ee4bd8b",
+            "id": "cc9a1b3d-5a0d-4294-8491-b86fd21cf2ae",
             "argument": [
                 {
                     "pos": "ACTION_verb",
@@ -4203,26 +4061,6 @@
                             "checked": false
                         },
                         {
-                            "text": "幫著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -4233,7 +4071,12 @@
                             "checked": false
                         },
                         {
-                            "text": "想替",
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4244,6 +4087,21 @@
                         },
                         {
                             "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4317,22 +4175,7 @@
                             "checked": false
                         },
                         {
-                            "text": "適量",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "補充了",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "填補",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "補足",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4342,7 +4185,22 @@
                             "checked": false
                         },
                         {
+                            "text": "補足",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "補充了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "調配",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "提取",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4352,7 +4210,7 @@
                             "checked": false
                         },
                         {
-                            "text": "提取",
+                            "text": "適量",
                             "level": "word2vec",
                             "checked": false
                         }
@@ -4362,67 +4220,9 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "排印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "合訂",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "裝訂",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "重印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "翻印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "刊印",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "謄",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "印製",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "印行",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "平裝",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "影印",
-                    "checked": false,
-                    "checkbox": false
-                },
-                {
-                    "pos": "ENTITY_nouny",
-                    "text": "紙",
-                    "checked": false,
+                    "pos": "UserDefined",
+                    "text": "影印紙",
+                    "checked": true,
                     "checkbox": true
                 }
             ]
@@ -4638,7 +4438,7 @@
             ]
         },
         "可以幫我解決卡紙嗎": {
-            "id": "be7ebd67-383b-4852-a1d6-0f8e16fe011e",
+            "id": "fd840897-8834-45eb-aaad-6769f91f5fa9",
             "argument": [
                 {
                     "pos": "MODAL",
@@ -4675,26 +4475,6 @@
                             "checked": false
                         },
                         {
-                            "text": "幫著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -4705,7 +4485,12 @@
                             "checked": false
                         },
                         {
-                            "text": "想替",
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "幫著",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4716,6 +4501,21 @@
                         },
                         {
                             "text": "幫忙",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4839,7 +4639,12 @@
                             "checked": false
                         },
                         {
-                            "text": "解決了",
+                            "text": "消弭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "緩解",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4854,17 +4659,12 @@
                             "checked": false
                         },
                         {
-                            "text": "消弭",
+                            "text": "消除",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "解套",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "緩解",
+                            "text": "解決了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4874,7 +4674,7 @@
                             "checked": false
                         },
                         {
-                            "text": "消除",
+                            "text": "解套",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -4889,11 +4689,10 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "VerbP",
-                    "lexy": [],
+                    "pos": "UserDefined",
                     "text": "卡紙",
-                    "checked": false,
-                    "checkbox": false
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
                     "pos": "CLAUSE_YesNoQ",
@@ -5074,7 +4873,7 @@
             ]
         },
         "請幫我解決卡紙問題": {
-            "id": "914c2575-19ea-481c-87e5-e73875d2ac9c",
+            "id": "92b4720f-3b55-40ad-8c1a-2303b11d281a",
             "argument": [
                 {
                     "pos": "ACTION_verb",
@@ -5377,72 +5176,15 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "誇利",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡有著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "聖卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "有卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "誇萊",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "玩卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "飾卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡來",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡等",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡亦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡有",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "卡",
-                    "checked": false,
-                    "checkbox": false
+                    "pos": "UserDefined",
+                    "text": "卡紙",
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "紙問題",
-                    "checked": false,
+                    "pos": "ENTITY_noun",
+                    "text": "問題",
+                    "checked": true,
                     "checkbox": true
                 }
             ]
@@ -5479,6 +5221,26 @@
                             "checked": false
                         },
                         {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -5489,12 +5251,7 @@
                             "checked": false
                         },
                         {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫著",
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -5505,21 +5262,6 @@
                         },
                         {
                             "text": "幫忙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -5565,8 +5307,8 @@
                 }
             ]
         },
-        "影印機印得數量不對耶": {
-            "id": "3e45ee2d-32b5-4c1a-a8a2-3f74965a1d9d",
+        "影印機印的數量不對耶": {
+            "id": "28808387-8aec-4030-b047-581d095ae471",
             "argument": [
                 {
                     "pos": "ENTITY_nouny",
@@ -5576,8 +5318,90 @@
                 },
                 {
                     "pos": "ACTION_verb",
-                    "lexy": [],
-                    "text": "印得",
+                    "lexy": [
+                        {
+                            "text": "列印",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "印刷",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "印發",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "印行",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "印製",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "原印",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "屬印",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印處",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印住",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印術",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印起來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "印成",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "印",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
                     "checked": false,
                     "checkbox": false
                 },
@@ -5602,7 +5426,7 @@
             ]
         },
         "可以幫我解決卡紙問題嗎": {
-            "id": "35a89d59-ce76-45c0-be72-2a2a586ce029",
+            "id": "31814d37-cc2b-45b9-87fd-49bd4fda758e",
             "argument": [
                 {
                     "pos": "MODAL",
@@ -5639,6 +5463,26 @@
                             "checked": false
                         },
                         {
+                            "text": "幫著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常幫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "替",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
                             "text": "想幫",
                             "level": "word2vec",
                             "checked": false
@@ -5649,12 +5493,7 @@
                             "checked": false
                         },
                         {
-                            "text": "替",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "幫著",
+                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -5665,21 +5504,6 @@
                         },
                         {
                             "text": "幫忙",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "常幫",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想請",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "想替",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -5803,12 +5627,7 @@
                             "checked": false
                         },
                         {
-                            "text": "消弭",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "緩解",
+                            "text": "解決了",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -5823,12 +5642,17 @@
                             "checked": false
                         },
                         {
-                            "text": "消除",
+                            "text": "消弭",
                             "level": "word2vec",
                             "checked": false
                         },
                         {
-                            "text": "解決了",
+                            "text": "解套",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "緩解",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -5838,7 +5662,7 @@
                             "checked": false
                         },
                         {
-                            "text": "解套",
+                            "text": "消除",
                             "level": "word2vec",
                             "checked": false
                         },
@@ -5853,72 +5677,15 @@
                     "checkbox": false
                 },
                 {
-                    "pos": "ACTION_verb",
-                    "lexy": [
-                        {
-                            "text": "誇利",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡有著",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "聖卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "有卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "誇萊",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "玩卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "飾卡",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡來",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡等",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡亦",
-                            "level": "word2vec",
-                            "checked": false
-                        },
-                        {
-                            "text": "卡有",
-                            "level": "word2vec",
-                            "checked": false
-                        }
-                    ],
-                    "text": "卡",
-                    "checked": false,
-                    "checkbox": false
+                    "pos": "UserDefined",
+                    "text": "卡紙",
+                    "checked": true,
+                    "checkbox": true
                 },
                 {
-                    "pos": "ENTITY_nouny",
-                    "text": "紙問題",
-                    "checked": false,
+                    "pos": "ENTITY_noun",
+                    "text": "問題",
+                    "checked": true,
                     "checkbox": true
                 },
                 {
